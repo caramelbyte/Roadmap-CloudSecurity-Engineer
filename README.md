@@ -1,36 +1,58 @@
-🛡️ Cloud Security Engineer Roadmap (Self-Paced & GitHub Portfolio)
-🌟 Why This Exists
+# 🛡️ Cloud Security Engineer Roadmap
 
-This roadmap is a strategic, self-paced journey to becoming a cloud security engineer, curated to build hands-on skills, validate expertise through certifications, and demonstrate real-world capabilities in a public portfolio. It serves both as a learning guide and evidence of progress for future employers and collaborators.
+This is a self-paced, focus-driven roadmap to become a **Cloud Security Engineer**, built as both a personal learning hub and a public portfolio of skills, labs, and projects. It covers everything from certifications and cloud tools to real-world security labs.
 
-🔑 Core Focus Areas
-Area	Why It Matters
-Cloud Platforms (AWS, Azure, GCP)	Must understand native security services and architectural best practices
-Identity & Access Management (IAM)	First line of defense; misconfigurations are a top attack vector
-Infrastructure as Code (IaC)	Automate and secure provisioning at scale (e.g., Terraform, CloudFormation)
-Cloud Threat Detection	Learn SIEM, CSPM, and monitoring tools like GuardDuty, Azure Sentinel
-Encryption & Key Management	Core to data protection in transit and at rest
-Compliance & Governance	Understand frameworks like NIST, SOC2, ISO, and cloud shared responsibility model
-Incident Response & Forensics	Know how to detect, analyze, and respond in cloud environments
-DevSecOps	Integrate security into CI/CD workflows and container security
+---
 
+## 🔍 Why This Exists
 
-📜 Certification Goals
-Cert	Provider	Level	Value
-CompTIA Security+	CompTIA	Entry	Foundational for security principles
-AWS Certified Security - Specialty	AWS	Intermediate	Validates deep AWS security knowledge
-AZ-500: Microsoft Azure Security Engineer	Microsoft	Intermediate	Azure-specific security skills
-Google Professional Cloud Security Engineer	GCP	Intermediate	For GCP-based roles
-(Optional) ISC² CCSP	ISC²	Advanced	Vendor-neutral, governance heavy
-(Bonus) Terraform Associate	HashiCorp	Intermediate	Shows IaC and cloud provisioning skills
+This roadmap documents my personal journey to becoming a cloud security engineer. It exists to:
+- Build deep hands-on cloud security skills
+- Track certifications and key knowledge areas
+- Showcase real-world labs and secure cloud projects
+- Provide a transparent, self-paced learning journey
 
-🛠️ Skill Areas + Progress Tracking
-Skill	Learning Status	Linked Resource
-IAM (AWS, Azure)	🟨 In Progress	identity-access-control.md
-S3 Bucket Security	⬜ Not Started	aws-s3-bucket-hardening.md
-Key Vault / KMS	🟩 Complete	azure-keyvault-lab.md
-Terraform Security	⬜ Not Started	terraform-security.md
-Secure CI/CD	🟨 In Progress	secure-cicd-pipeline.md
-Threat Detection	⬜ Not Started	cloud-siem-pipeline.md
+---
 
-Add GitHub checkboxes in progress-tracker.md for visual tracking!
+## 🧭 Roadmap Structure
+
+| Section | Description |
+|--------|-------------|
+| `certifications/` | Study notes and prep for cloud and security certifications |
+| `skills/` | Key learning areas like IAM, encryption, and DevSecOps |
+| `labs/` | Hands-on exercises and walkthroughs of cloud security concepts |
+| `projects/` | Real-world security engineering projects |
+| `progress-tracker.md` | Tracks what’s done, in progress, and planned |
+| `resources.md` | Curated list of books, courses, and tools |
+
+---
+
+## 🧪 Project Example: S3 Bucket Hardening
+- Goal: Learn AWS permissions and secure storage setup
+- Tools: AWS Console, AWS CLI
+- Output: Step-by-step lab + screenshots + misconfiguration analysis
+
+Find it here → [labs/aws-s3-bucket-hardening.md](labs/aws-s3-bucket-hardening.md)
+
+---
+
+## 📜 Certifications I’m Working On
+
+- ✅ ISC2 Certified in Cybersecurity (CC)
+- ⏳ AWS Certified Security – Specialty
+- ⏳ AZ-500: Microsoft Azure Security Engineer
+- 🔜 Terraform Associate
+- ❓ Optional: CCSP, CCNA, CKS
+
+---
+
+## 📊 Progress Tracker
+
+Check [progress-tracker.md](progress-tracker.md) to follow my progress, current focus, and completed work.
+
+---
+
+## ✨ Contact
+
+Feel free to fork, follow, or connect with me on [LinkedIn](https://linkedin.com/in/YOURNAME) or via [GitHub Discussions](https://github.com/YOURNAME/cloud-security-roadmap/discussions) if you want to collaborate or share resources!
+
